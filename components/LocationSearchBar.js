@@ -19,7 +19,7 @@ export default function LocationSearchBar() {
   };
 
   return (
-    <div className="search-container">
+    <div className="search-container flex flex-col items-center justify-start bg-blue-500 min-h-screen p-8">
       <input
         value={inputValue}
         type="text"
